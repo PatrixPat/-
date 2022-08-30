@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Panda Syntax",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme",
+    "editor.lineNumbers":"relative",
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Cascadia Mono, 'Courier New', monospace",
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+            "<C-a>": false,
+            "<C-f>": false,
+            "<C-n>": false,
+            "<C-c>": false,
+            "<C-v>": false,
+            "<C-x>": false,
+            "<C-w>": false,
+    },
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["g", "r"],
+            "commands": ["editor.action.goToReferences"]
+        }
+    ],
+}
